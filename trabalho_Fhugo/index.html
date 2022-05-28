@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+</head>
+<body style="margin: 25px ;">
+    
+    <h2>Cadrasto de Produtos</h2>
+    
+    <div>
+        <form id="infos-prod">
+            <label for="name">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Farinha" /> 
+
+            <label for="preco">Preço:</label>
+            <input type="text" id="preco" name="preco" placeholder="R$ 3,20" />  <br>
+
+            <input type="checkbox" name="prime" id="prime"> 
+            <label for="prime">É prime?</label> 
+            <input type="hidden" id="idx" value="novo" /> <br>
+            <input type="submit" value="Salvar"> 
+        </form>
+
+        <div id="msg-erro"></div>
+    </div>
+    <br><br>
+
+    <table>
+        <caption>
+            <h3>Lista de Produtos</h3>
+        </caption>
+
+        <thead>
+            <tr>
+                <th>Identificador</th> 
+                <th>Nome do Produto</th> 
+                <th>Preço dos Produtos</th>
+                <th>Prime</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr>
+                <td>1</td>
+                <td>Computador </td> 
+                <td>R$ 2000,00</td>
+                <td>Sim</td>
+                <td><button>Editar</button><button>Remover</button></td>
+            </tr>
+        </tbody>
+
+        
+    </table>
+    <script src="js/leao.js"></script>
+</body>
+</html>

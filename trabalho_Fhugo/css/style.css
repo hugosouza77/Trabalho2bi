@@ -1,0 +1,44 @@
+body{
+    background-image: url(../img/fec.jpg_large);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+h2{
+    color:white;
+    
+}
+div form input{
+    background-color: red;
+    color: white;
+}
+div form label {
+    color:white;
+}
+
+caption{
+    color: red;
+    
+}
+
+thead tr{
+    color: white;
+    
+    
+}
+
+
+tbody tr td {
+    background-color: white;
+    color: red;
+    
+}
+ img{
+    max-width: 150px;
+
+}
+h3{
+    color: white;
+}
